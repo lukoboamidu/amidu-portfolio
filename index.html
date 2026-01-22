@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amidu Lukobo | Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+      background:#0f172a;
+      color:#e2e8f0;
+      line-height:1.6;
+    }
+
+    header{
+      padding:50px 20px;
+      text-align:center;
+      background:linear-gradient(135deg,#1e293b,#0f172a);
+      border-bottom:1px solid rgba(255,255,255,0.1);
+    }
+
+    .profile-pic{
+      width:110px;
+      height:110px;
+      border-radius:50%;
+      background:rgba(255,255,255,0.08);
+      border:2px solid rgba(59,130,246,0.6);
+      margin:0 auto 18px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:38px;
+      font-weight:bold;
+      color:#93c5fd;
+    }
+
+    header h1{
+      font-size:2.2rem;
+      margin-bottom:10px;
+      color:#ffffff;
+    }
+
+    header p{
+      font-size:1rem;
+      max-width:720px;
+      margin:0 auto;
+      color:#cbd5e1;
+    }
+
+    .btns{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      justify-content:center;
+      margin-top:18px;
+    }
+
+    a.button{
+      text-decoration:none;
+      background:#3b82f6;
+      color:white;
+      padding:10px 18px;
+      border-radius:12px;
+      font-weight:bold;
+      transition:0.2s;
+      display:inline-block;
+    }
+
+    a.button:hover{
+      background:#2563eb;
+      transform:translateY(-2px);
+    }
+
+    a.button.outline{
+      background:transparent;
+      border:1px solid rgba(59,130,246,0.6);
+      color:#93c5fd;
+    }
+
+    a.button.outline:hover{
+      background:rgba(59,130,246,0.12);
+      transform:translateY(-2px);
+    }
+
+    .container{
+      max-width:1050px;
+      margin:0 auto;
+      padding:30px 20px;
+    }
+
+    .section{
+      margin-bottom:22px;
+      padding:25px;
+      background:rgba(255,255,255,0.04);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:18px;
+    }
+
+    .section h2{
+      font-size:1.4rem;
+      margin-bottom:12px;
+      color:#ffffff;
+    }
+
+    .tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:10px;
+    }
+
+    .tag{
+      background:rgba(59,130,246,0.15);
+      border:1px solid rgba(59,130,246,0.3);
+      padding:6px 12px;
+      border-radius:999px;
+      font-size:0.9rem;
+      color:#93c5fd;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:15px;
+      margin-top:15px;
+    }
+
+    .card{
+      padding:18px;
+      border-radius:16px;
+      background:rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    .card h3{
+      font-size:1.05rem;
+      margin-bottom:6px;
+      color:#ffffff;
+    }
+
+    .card p{
+      color:#cbd5e1;
+      font-size:0.95rem;
+    }
+
+    .writing-box{
+      margin-top:12px;
+      padding:16px;
+      border-radius:14px;
+      background:rgba(0,0,0,0.2);
+      border:1px solid rgba(255,255,255,0.08);
+      color:#cbd5e1;
+      font-size:0.95rem;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      color:#94a3b8;
+      font-size:0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="profile-pic">AL</div>
+
+    <h1>Amidu Lukobo</h1>
+    <p>
+      English Teacher | Designer-in-Training | Beginner Tech Learner  
+      <br />
+      I help students learn English clearly, and I create digital designs for business and education.
+    </p>
+
+    <div class="btns">
+      <a class="button" href="#projects">View Projects</a>
+      <a class="button outline" href="#writing">Writing Sample</a>
+      <a class="button outline" href="#contact">Contact Me</a>
+      <a class="button outline" href="cv.pdf" download>Download CV</a>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <section class="section" id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m <b>Amidu Lukobo</b>. I’m passionate about teaching English and creating learning materials.
+        I’m also building professional skills in Canva, Photoshop, data entry, and web design.
+        My goal is to grow into a strong digital creator and online worker.
+      </p>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="tags">
+        <span class="tag">English Teaching</span>
+        <span class="tag">Lesson Planning</span>
+        <span class="tag">Exam Preparation</span>
+        <span class="tag">Canva Design</span>
+        <span class="tag">Photoshop Basics</span>
